@@ -1,0 +1,30 @@
+﻿@using Blog.ViewModels.Blog
+@model BlogUptadeVM
+@{
+    ViewData["Title"] = "Update";
+}
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Title">Title</label>
+        <input asp-for="Title" class="form-control">
+        <span asp-validation-for="Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Descriptions">Descriptions</label>
+        <input asp-for="Descriptions" class="form-control">
+        <span asp-validation-for="Descriptions"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Author">Author</label>
+        <input asp-for="Author" class="form-control">
+        <span asp-validation-for="Author"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImgFile">Image</label>
+        <input asp-for="ImgFile" class="form-control">
+        <span asp-validation-for="ImgFile"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
