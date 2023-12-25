@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y08r+2B48NZO7AwT5y1QvQHDvrHYXFdudEXzEJJPLuHcMXR3fqAM1ndhRbPIgHufP3oeHh4tax4i+thXdBQazg==",
+  "dgSpecHash": "yfxgeAMgsfSNwIzaOL3G8E7Acm31LaFJeXwWw9+jbTueqWiNFU4EIDf0ffGshznXkhwdwsco7MV2HOdQFRotZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\birinci novbe\\Desktop\\Blog\\Blog.csproj",
+  "projectFilePath": "C:\\Users\\birinci novbe\\Desktop\\BlogTask\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\birinci novbe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\birinci novbe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

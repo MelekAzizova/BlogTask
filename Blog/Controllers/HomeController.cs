@@ -1,5 +1,6 @@
 ﻿
 using Blog.Context;
+using Blog.Helpers;
 using Blog.ViewModels.Blog;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,9 @@ namespace Blog.Controllers
                 Title = s.Title,
                 Descriptions = s.Descriptions,
                 Author = s.Author,
-                CreateAt = s.CreateAt
+                CreateAt = s.CreateAt,
+               ImgFile = s.Image
+               
             }).ToListAsync();
             return View(blog);
         }

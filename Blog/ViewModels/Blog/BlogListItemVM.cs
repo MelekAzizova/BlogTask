@@ -11,7 +11,7 @@ namespace Blog.ViewModels.Blog
         public string Descriptions { get; set; }
         public DateTime CreateAt { get; set; }
         
-        public IFormFile ImgFile { get; set; }
+        public string ImgFile { get; set; }
         public string Author { get; set; }
     }
 }
